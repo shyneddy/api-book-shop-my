@@ -9,10 +9,10 @@ import rating from './rating.js'
 function route(app) {
 
     // app.use(flash());
-    // app.use('/home', homeRouter);
-    app.use('/', (req, res) => {
-        res.send('Hello World!');
-    });
+    // // app.use('/home', homeRouter);
+    // app.use('/', (req, res) => {
+    //     res.send('Hello World!');
+    // });
     app.use('/user', userRouter);
     app.use('/home', homeRouter);
     app.use('/product', productRouter);
