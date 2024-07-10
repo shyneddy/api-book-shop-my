@@ -14,7 +14,7 @@ const app = express()
 // app.use(cors());
 const secretKey = 'your_secret_key';
 app.use(cors({
-    origin: 'https://shyneddy.github.io/TTTN-frontend',
+    origin: 'https://shyneddy.github.io',
     credentials: true
 }));
 
